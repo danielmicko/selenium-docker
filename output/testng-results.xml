@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="search-module-test" duration-ms="14159" started-at="2021-10-11T13:52:04 GMT" finished-at="2021-10-11T13:52:18 GMT">
+    <groups>
+    </groups>
+    <test name="search-duckduckgo-webdriver" duration-ms="2875" started-at="2021-10-11T13:52:04 GMT" finished-at="2021-10-11T13:52:07 GMT">
+      <class name="com.duckduckgo.tests.SearchTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.duckduckgo.tests.SearchTest@1ed4004b]" name="setUp" is-config="true" duration-ms="830" started-at="2021-10-11T13:52:04 GMT" finished-at="2021-10-11T13:52:05 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setSearchTestClasses()[pri:0, instance:com.duckduckgo.tests.SearchTest@1ed4004b]" name="setSearchTestClasses" is-config="true" duration-ms="22" started-at="2021-10-11T13:52:05 GMT" finished-at="2021-10-11T13:52:05 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setSearchTestClasses -->
+        <test-method status="PASS" signature="search(java.lang.String)[pri:0, instance:com.duckduckgo.tests.SearchTest@1ed4004b]" name="search" duration-ms="1927" started-at="2021-10-11T13:52:05 GMT" finished-at="2021-10-11T13:52:07 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[webdriver]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.duckduckgo.tests.SearchTest@1ed4004b]" name="tearDown" is-config="true" duration-ms="65" started-at="2021-10-11T13:52:07 GMT" finished-at="2021-10-11T13:52:07 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.duckduckgo.tests.SearchTest -->
+    </test> <!-- search-duckduckgo-webdriver -->
+    <test name="search-duckduckgo-qa" duration-ms="5960" started-at="2021-10-11T13:52:04 GMT" finished-at="2021-10-11T13:52:10 GMT">
+      <class name="com.duckduckgo.tests.SearchTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.duckduckgo.tests.SearchTest@5cb9f472]" name="setUp" is-config="true" duration-ms="3185" started-at="2021-10-11T13:52:04 GMT" finished-at="2021-10-11T13:52:07 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setSearchTestClasses()[pri:0, instance:com.duckduckgo.tests.SearchTest@5cb9f472]" name="setSearchTestClasses" is-config="true" duration-ms="1" started-at="2021-10-11T13:52:07 GMT" finished-at="2021-10-11T13:52:07 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setSearchTestClasses -->
+        <test-method status="PASS" signature="search(java.lang.String)[pri:0, instance:com.duckduckgo.tests.SearchTest@5cb9f472]" name="search" duration-ms="2694" started-at="2021-10-11T13:52:07 GMT" finished-at="2021-10-11T13:52:10 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.duckduckgo.tests.SearchTest@5cb9f472]" name="tearDown" is-config="true" duration-ms="62" started-at="2021-10-11T13:52:10 GMT" finished-at="2021-10-11T13:52:10 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.duckduckgo.tests.SearchTest -->
+    </test> <!-- search-duckduckgo-qa -->
+    <test name="search-duckduckgo-docker" duration-ms="8902" started-at="2021-10-11T13:52:04 GMT" finished-at="2021-10-11T13:52:13 GMT">
+      <class name="com.duckduckgo.tests.SearchTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.duckduckgo.tests.SearchTest@4b952a2d]" name="setUp" is-config="true" duration-ms="6217" started-at="2021-10-11T13:52:04 GMT" finished-at="2021-10-11T13:52:10 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setSearchTestClasses()[pri:0, instance:com.duckduckgo.tests.SearchTest@4b952a2d]" name="setSearchTestClasses" is-config="true" duration-ms="1" started-at="2021-10-11T13:52:10 GMT" finished-at="2021-10-11T13:52:10 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setSearchTestClasses -->
+        <test-method status="PASS" signature="search(java.lang.String)[pri:0, instance:com.duckduckgo.tests.SearchTest@4b952a2d]" name="search" duration-ms="2552" started-at="2021-10-11T13:52:10 GMT" finished-at="2021-10-11T13:52:13 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[docker]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.duckduckgo.tests.SearchTest@4b952a2d]" name="tearDown" is-config="true" duration-ms="113" started-at="2021-10-11T13:52:13 GMT" finished-at="2021-10-11T13:52:13 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.duckduckgo.tests.SearchTest -->
+    </test> <!-- search-duckduckgo-docker -->
+    <test name="search-duckduckgo-java" duration-ms="11610" started-at="2021-10-11T13:52:04 GMT" finished-at="2021-10-11T13:52:16 GMT">
+      <class name="com.duckduckgo.tests.SearchTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.duckduckgo.tests.SearchTest@1a968a59]" name="setUp" is-config="true" duration-ms="9163" started-at="2021-10-11T13:52:04 GMT" finished-at="2021-10-11T13:52:13 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setSearchTestClasses()[pri:0, instance:com.duckduckgo.tests.SearchTest@1a968a59]" name="setSearchTestClasses" is-config="true" duration-ms="1" started-at="2021-10-11T13:52:13 GMT" finished-at="2021-10-11T13:52:13 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setSearchTestClasses -->
+        <test-method status="PASS" signature="search(java.lang.String)[pri:0, instance:com.duckduckgo.tests.SearchTest@1a968a59]" name="search" duration-ms="2362" started-at="2021-10-11T13:52:13 GMT" finished-at="2021-10-11T13:52:16 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[java]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.duckduckgo.tests.SearchTest@1a968a59]" name="tearDown" is-config="true" duration-ms="64" started-at="2021-10-11T13:52:16 GMT" finished-at="2021-10-11T13:52:16 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.duckduckgo.tests.SearchTest -->
+    </test> <!-- search-duckduckgo-java -->
+    <test name="search-duckduckgo-kubernetes" duration-ms="14158" started-at="2021-10-11T13:52:04 GMT" finished-at="2021-10-11T13:52:18 GMT">
+      <class name="com.duckduckgo.tests.SearchTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.duckduckgo.tests.SearchTest@5649fd9b]" name="setUp" is-config="true" duration-ms="11861" started-at="2021-10-11T13:52:04 GMT" finished-at="2021-10-11T13:52:16 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setSearchTestClasses()[pri:0, instance:com.duckduckgo.tests.SearchTest@5649fd9b]" name="setSearchTestClasses" is-config="true" duration-ms="1" started-at="2021-10-11T13:52:16 GMT" finished-at="2021-10-11T13:52:16 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setSearchTestClasses -->
+        <test-method status="PASS" signature="search(java.lang.String)[pri:0, instance:com.duckduckgo.tests.SearchTest@5649fd9b]" name="search" duration-ms="2213" started-at="2021-10-11T13:52:16 GMT" finished-at="2021-10-11T13:52:18 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kubernetes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.duckduckgo.tests.SearchTest@5649fd9b]" name="tearDown" is-config="true" duration-ms="64" started-at="2021-10-11T13:52:18 GMT" finished-at="2021-10-11T13:52:18 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.duckduckgo.tests.SearchTest -->
+    </test> <!-- search-duckduckgo-kubernetes -->
+  </suite> <!-- search-module-test -->
+</testng-results>

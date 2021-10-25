@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [search-module-test]" parallel="tests">
+  <test thread-count="5" name="search-duckduckgo-kubernetes(failed)" parallel="tests">
+    <parameter name="keyword" value="kubernetes"/>
+    <classes>
+      <class name="com.duckduckgo.tests.SearchTest">
+        <methods>
+          <include name="search"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setSearchTestClasses"/>
+        </methods>
+      </class> <!-- com.duckduckgo.tests.SearchTest -->
+    </classes>
+  </test> <!-- search-duckduckgo-kubernetes(failed) -->
+  <test thread-count="5" name="search-duckduckgo-webdriver(failed)" parallel="tests">
+    <parameter name="keyword" value="webdriver"/>
+    <classes>
+      <class name="com.duckduckgo.tests.SearchTest">
+        <methods>
+          <include name="search"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setSearchTestClasses"/>
+        </methods>
+      </class> <!-- com.duckduckgo.tests.SearchTest -->
+    </classes>
+  </test> <!-- search-duckduckgo-webdriver(failed) -->
+  <test thread-count="5" name="search-duckduckgo-qa(failed)" parallel="tests">
+    <parameter name="keyword" value="qa"/>
+    <classes>
+      <class name="com.duckduckgo.tests.SearchTest">
+        <methods>
+          <include name="search"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setSearchTestClasses"/>
+        </methods>
+      </class> <!-- com.duckduckgo.tests.SearchTest -->
+    </classes>
+  </test> <!-- search-duckduckgo-qa(failed) -->
+  <test thread-count="5" name="search-duckduckgo-docker(failed)" parallel="tests">
+    <parameter name="keyword" value="docker"/>
+    <classes>
+      <class name="com.duckduckgo.tests.SearchTest">
+        <methods>
+          <include name="search"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setSearchTestClasses"/>
+        </methods>
+      </class> <!-- com.duckduckgo.tests.SearchTest -->
+    </classes>
+  </test> <!-- search-duckduckgo-docker(failed) -->
+  <test thread-count="5" name="search-duckduckgo-java(failed)" parallel="tests">
+    <parameter name="keyword" value="java"/>
+    <classes>
+      <class name="com.duckduckgo.tests.SearchTest">
+        <methods>
+          <include name="search"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setSearchTestClasses"/>
+        </methods>
+      </class> <!-- com.duckduckgo.tests.SearchTest -->
+    </classes>
+  </test> <!-- search-duckduckgo-java(failed) -->
+</suite> <!-- Failed suite [search-module-test] -->
