@@ -3,7 +3,7 @@
 FROM alpine
 #pridan curl pro pingovani statusu a parsing json response
 RUN apk add curl jq 
-RUN openjdk
+FROM openjdk
 
 #Creating workspace
 WORKDIR /usr/share/dockerfiles
